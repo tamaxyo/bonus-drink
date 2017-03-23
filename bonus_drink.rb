@@ -1,5 +1,7 @@
 class BonusDrink
   def self.total_count_for(amount)
+    return 0 if amount < 0
+    
     total_count = amount
     empty_bottles = amount
 
