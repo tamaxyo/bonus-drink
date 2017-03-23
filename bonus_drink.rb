@@ -13,3 +13,7 @@ class BonusDrink
     return total_count
   end
 end
+
+if __FILE__ == $0
+  puts BonusDrink.total_count_for 100
+end
